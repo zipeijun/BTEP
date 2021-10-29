@@ -1,0 +1,16 @@
+{
+    "name": "Bilingual Translation Enhancement Plugin",
+    "description": "双语翻译增强插件",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_title": "Click to clone an node."
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
